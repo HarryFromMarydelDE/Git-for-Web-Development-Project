@@ -172,3 +172,37 @@ Branch your local copy.
 Commit any changes, multiple times if necessary.
 Push your branch to the fork on github.
 Put in a pull request to your Team leader.
+
+     Stretch Questions
+
+     1. What is the difference between an inline element and a block element?
+
+An inline element is rendered as part of the flow of the parent
+element and does not generate a line brake or take up the full width
+available to it.
+
+     2. What happens when an element is positioned absolutely?
+
+When an element is positioned absolutely, it's position stays constant
+relative the nearest ancestor element that also has a position
+property, or relative to the document if there is no such ancestor.
+
+     3. How do I make an element take up only the amount of space it
+     needs but also have the ability to give it a width?
+
+Give it the inline-block display property.
+
+     4. Name 3 elements that are diplay block by default, 2 elements
+     that are display inline by default and 1 element that is display
+     inline-block by default
+
+<header>, <footer>, and <section> display as block by default. <span>
+and <a> display as inline by default. <img> displays as inline-block
+by default.
+
+     5. In your own words, explain the box model. What is the "fix"
+     for the box model, in other words, how do we make all elements
+     respect the width we've given them?
+
+The box model renders each element in it's own rectangular space. Set
+the border-sizing property to border-box.
